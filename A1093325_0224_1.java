@@ -1,0 +1,20 @@
+import java.util.*;
+public class no9 {
+    public static void main(String[] args){
+        int num;
+        String numType;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please input a number.");
+        num = scanner.nextInt();
+        if(num == 1){
+            numType = "odd";
+        }else if(num == 0){
+            numType = "even";         
+        }else if(num%2 == 0){
+            numType = "even";         
+        }else{
+            numType = "odd";         
+        }
+        System.out.println(num+" is a "+numType+" number");
+    }
+}
