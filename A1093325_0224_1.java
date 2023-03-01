@@ -6,10 +6,10 @@ public class no9 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please input a number.");
         num = scanner.nextInt();
-        if(num == 1){
-            numType = "odd";
-        }else if(num == 0){
-            numType = "even";         
+        if(num == 0){
+            numType = "natural"; 
+        }else if(num == 1){
+            numType = "odd";         
         }else if(num%2 == 0){
             numType = "even";         
         }else{
