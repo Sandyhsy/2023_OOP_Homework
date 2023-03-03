@@ -1,5 +1,5 @@
 import java.util.*;
-public class no10 {
+public class A1093325_0224_2 {
     public static void main(String[] args){
         float cel,fah;
         Scanner scanner = new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.*;
-public class no9 {
+public class A1093325_0224_1 {
     public static void main(String[] args){
         int num;
         String numType;
